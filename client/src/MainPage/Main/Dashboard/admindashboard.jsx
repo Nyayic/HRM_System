@@ -50,7 +50,7 @@ class AdminDashboard extends Component {
          
          <div className="page-wrapper">
              <Helmet>
-                    <title>Dashboard - HRMS Admin Template</title>
+                    <title>Dashboard - HRMS Seeta High School</title>
                     <meta name="description" content="Dashboard"/>					
             </Helmet>
         {/* Page Content */}
@@ -67,7 +67,7 @@ class AdminDashboard extends Component {
             </div>
           </div>
           {/* /Page Header */}
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-6 col-sm-6 col-lg-6 col-xl-3">
               <div className="card dash-widget">
                 <div className="card-body">
@@ -112,15 +112,16 @@ class AdminDashboard extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
+          </div> */}
+          
+          {/* <div className="row">
             <div className="col-md-12">
               <div className="row">
                 <div className="col-md-6 text-center">
                   <div className="card">
                     <div className="card-body">
                       <h3 className="card-title">Total Revenue</h3>
-                      {/* <div id="bar-charts" /> */}
+                      {/* <div id="bar-charts" /> 
                       <ResponsiveContainer width='100%' height={300}>
                       <BarChart
                          
@@ -159,13 +160,14 @@ class AdminDashboard extends Component {
                       </LineChart>
                       </ResponsiveContainer>
                       
-                      {/* <div id="line-charts" /> */}
+                      {/* <div id="line-charts" /> 
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
           <div className="row">
             <div className="col-md-12">
               <div className="card-group m-b-30">
@@ -217,7 +219,7 @@ class AdminDashboard extends Component {
                     <div className="progress mb-2" style={{height: '5px'}}>
                       <div className="progress-bar bg-primary" role="progressbar" style={{width: '70%'}} aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} />
                     </div>
-                    <p className="mb-0">Previous Month <span className="text-muted">$7,500</span></p>
+                    <p className="mb-0">Previous Month <span className="text-muted">Shs.7,500</span></p>
                   </div>
                 </div>
                 <div className="card">
@@ -234,7 +236,7 @@ class AdminDashboard extends Component {
                     <div className="progress mb-2" style={{height: '5px'}}>
                       <div className="progress-bar bg-primary" role="progressbar" style={{width: '70%'}} aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} />
                     </div>
-                    <p className="mb-0">Previous Month <span className="text-muted">$1,42,000</span></p>
+                    <p className="mb-0">Previous Month <span className="text-muted">Shs.1,42,000</span></p>
                   </div>
                 </div>
               </div>

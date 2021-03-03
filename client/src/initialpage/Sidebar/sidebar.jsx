@@ -36,8 +36,10 @@ class Sidebar extends Component {
                   <i className="la la-cube" /> 
                   <span> Apps</span> <span className="menu-arrow" />
                 </a>
+
+                {/* eliminated calls and left only calendar */}
                 <ul style={{display: 'none'}}>
-                  <li><a href="/light/conversation/chat">Chat</a></li>
+                  {/* <li><a href="/light/conversation/chat">Chat</a></li>
                   <li className="submenu">
                     <a href="#"><span> Calls</span> <span className="menu-arrow" /></a>
                     <ul style={{display: 'none'}}>
@@ -46,11 +48,15 @@ class Sidebar extends Component {
                       <li><a href="/light/conversation/outgoing-call">Outgoing Call</a></li>
                       <li><a href="/light/conversation/incoming-call">Incoming Call</a></li>
                     </ul>
+                  </li> */}
+                  <li>
+                    <a className={pathname.includes('apps/calendar') ?"active" :""} 
+                    href="/light/app/apps/calendar">HR Calendar
+                    </a>
                   </li>
-                  <li><a className={pathname.includes('apps/calendar') ?"active" :""} href="/light/app/apps/calendar">Calendar</a></li>
-                  <li><a className={pathname.includes('contacts') ?"active" :""} href="/light/app/apps/contacts">Contacts</a></li>
+                  {/* <li><a className={pathname.includes('contacts') ?"active" :""} href="/light/app/apps/contacts">Contacts</a></li>
                   <li><a href="/light/email/inbox">Email</a></li>
-                  <li><a className={pathname.includes('file-manager') ?"active" :""} href="/light/app/apps/file-manager">File Manager</a></li>
+                  <li><a className={pathname.includes('file-manager') ?"active" :""} href="/light/app/apps/file-manager">File Manager</a></li> */}
                 </ul>
               </li>
               <li className="menu-title"> 
@@ -79,9 +85,11 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('overtime') ?"active" :""} href="/light/app/employee/overtime">Overtime</a></li>
                 </ul>
               </li>
-              <li className={pathname.includes('clients') ?"active" :""}> 
+
+              {/* <li className={pathname.includes('clients') ?"active" :""}> 
                 <a href="/light/app/employees/clients"><i className="la la-users" /> <span>Clients</span></a>
-              </li>
+              </li> */}
+
               <li className="submenu">
                 <a href="#"><i className="la la-rocket" /> <span> Projects</span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -92,15 +100,18 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('task-board') ?"active" :""} href="/light/app/projects/task-board">Task Board</a></li>
                 </ul>
               </li>
-              <li className={pathname.includes('leads') ?"active" :""}> 
+                    {/* eliminate leads and tickets from ide nav */}
+              {/* <li className={pathname.includes('leads') ?"active" :""}> 
                 <a href="/light/app/employees/leads"><i className="la la-user-secret" /> <span>Leads</span></a>
               </li>
               <li className={pathname.includes('tickets') ?"active" :""}> 
                 <a href="/light/app/employees/tickets"><i className="la la-ticket" /> <span>Tickets</span></a>
-              </li>
+              </li> */}
+
               <li className="menu-title"> 
                 <span>HR</span>
               </li>
+              
               <li className="submenu">
                 <a href="#"><i className="la la-files-o" /> <span> Accounts </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -120,9 +131,11 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('payroll-items') ?"active" :""} href="/light/app/payroll/payroll-items"> Payroll Items </a></li>
                 </ul>
               </li>
-              <li className={pathname.includes('policies') ?"active" :""}> 
+              {/* Eliminated policies */}
+              {/* <li className={pathname.includes('policies') ?"active" :""}> 
                 <a href="/light/app/hr/policies"><i className="la la-file-pdf-o" /> <span>Policies</span></a>
-              </li>
+              </li> */}
+
               <li className="submenu">
                 <a href="#"><i className="la la-pie-chart" /> <span> Reports </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -141,13 +154,15 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('-appraisal') ?"active" :""} href="/light/app/performances/performance-appraisal"> Performance Appraisal </a></li>
                 </ul>
               </li>
-              <li className="submenu">
+              {/* Eliminated goals */}
+              {/* <li className="submenu">
                 <a href="#"><i className="la la-crosshairs" /> <span> Goals </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
                   <li><a className={pathname.includes('-tracking') ?"active" :""} href="/light/app/goals/goal-tracking"> Goal List </a></li>
                   <li><a className={pathname.includes('l-type') ?"active" :""} href="/light/app/goals/goal-type"> Goal Type </a></li>
                 </ul>
-              </li>
+              </li> */}
+
               <li className="submenu">
                 <a href="#"><i className="la la-edit" /> <span> Training </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -162,9 +177,10 @@ class Sidebar extends Component {
               <li className="menu-title"> 
                 <span>Administration</span>
               </li>
-              <li className={pathname.includes('assets') ?"active" :""}> 
+              {/* eliminated assets */}
+              {/* <li className={pathname.includes('assets') ?"active" :""}> 
                 <a href="/light/app/administrator/assets"><i className="la la-object-ungroup" /> <span>Assets</span></a>
-              </li>
+              </li> */}
               <li className="submenu">
                 <a href="#"><i className="la la-briefcase" /> <span> Jobs </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -172,19 +188,21 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('job-applicants') ?"active" :""} href="/light/app/administrator/job-applicants"> Applied Candidates </a></li>
                 </ul>
               </li>
-              <li className={pathname.includes('knowledgebase') ?"active" :""}> 
+              {/* <li className={pathname.includes('knowledgebase') ?"active" :""}> 
                 <a href="/light/app/administrator/knowledgebase"><i className="la la-question" /> <span>Knowledgebase</span></a>
-              </li>
-              <li className={pathname.includes('activities') ?"active" :""}> 
+              </li> */}
+              {/* <li className={pathname.includes('activities') ?"active" :""}> 
                 <a href="/light/app/administrator/activities"><i className="la la-bell" /> <span>Activities</span></a>
-              </li>
+              </li> */}
               <li className={pathname.includes('administrator/users') ?"active" :""}> 
                 <a href="/light/app/administrator/users"><i className="la la-user-plus" /> <span>Users</span></a>
               </li>
               <li> 
                 <a href="/light/settings/companysetting"><i className="la la-cog" /> <span>Settings</span></a>
               </li>
-              <li className="menu-title"> 
+
+              {/* Eliminated Pages in the admin view */}
+              {/* <li className="menu-title"> 
                 <span>Pages</span>
               </li>
               <li className="submenu">
@@ -204,6 +222,7 @@ class Sidebar extends Component {
                   <li><a href="/light/lockscreen"> Lock Screen </a></li>
                 </ul>
               </li>
+
               <li className="submenu">
                 <a href="#"><i className="la la-exclamation-triangle" /> <span> Error Pages </span> <span className="menu-arrow" /></a>
                 <ul style={{display: 'none'}}>
@@ -231,8 +250,10 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('privacypolicy') ?"active" :""} href="/light/app/pages/privacypolicy"> Privacy Policy </a></li>
                   <li><a className={pathname.includes('pages/blank') ?"active" :""} href="/light/app/pages/blank"> Blank Page </a></li>
                 </ul>
-              </li>
-              <li className="menu-title"> 
+              </li> */}
+
+              {/* Remove UI Interface */}
+              {/* <li className="menu-title"> 
                 <span>UI Interface</span>
               </li>
               <li> 
@@ -292,7 +313,7 @@ class Sidebar extends Component {
                     <a href=""> <span>Level 1</span></a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
