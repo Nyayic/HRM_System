@@ -7,7 +7,7 @@ class Taxes extends Component {
       return ( 
       <div className="page-wrapper">
             <Helmet>
-            <title>Taxes - HRMS Admin Template</title>
+            <title>Taxes - HRMS Seeta High School</title>
             <meta name="description" content="Login page"/>					
         </Helmet>
       {/* Page Content */}

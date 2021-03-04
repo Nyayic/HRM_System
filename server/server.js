@@ -1,11 +1,13 @@
 const express = require('express');
+const path = require('path');
 const app = express();
-const port = process.env.PORT || 5000;
 
-// console.log that your server is up and running
-app.listen(port, () => console.log(`Listening on port ${port}`));
+const PORT = process.env.PORT || 5000;
 
-// create a GET route
-app.get('/dashboard', (req, res) => {
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
+
+app.use(express.static(path.join(__dirname, '../client/Register')))
+  .listen(PORT, () => console.log(`Listening on ${PORT}`));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });

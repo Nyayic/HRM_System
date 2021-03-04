@@ -8,7 +8,7 @@ class CreateInvoice extends Component {
         
       <div className="page-wrapper">
         <Helmet>
-            <title>Create Invoice - HRMS Admin Template</title>
+            <title>Create Invoice - HRMS Seeta High School</title>
             <meta name="description" content="Login page"/>					
         </Helmet>
       {/* Page Content */}

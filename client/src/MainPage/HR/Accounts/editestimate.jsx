@@ -7,7 +7,7 @@ class EditEstimate extends Component {
       return ( 
          <div className="page-wrapper">
             <Helmet>
-                <title>Edit Estimate - HRMS Admin Template</title>
+                <title>Edit Estimate - HRMS Seeta High school</title>
                 <meta name="description" content="Login page"/>					
             </Helmet>
          {/* Page Content */}

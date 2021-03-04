@@ -84,7 +84,7 @@ class InvoiceReport extends Component {
       return ( 
           <div className="page-wrapper">
             <Helmet>
-                <title>Invoice Report - HRMS Admin Template</title>
+                <title>Invoice Report - HHRMS Seeta High School</title>
                 <meta name="description" content="Login page"/>					
             </Helmet>
           {/* Page Content */}

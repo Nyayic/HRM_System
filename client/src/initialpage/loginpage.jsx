@@ -45,7 +45,8 @@ class Loginpage extends Component {
                 <form action="/light/app/main/dashboard">
                   <div className="form-group">
                     <label>Email Address</label>
-                    <input className="form-control" type="text" />
+                    <input className="form-control" 
+                    placeholder="Enter your Email" type="email" />
                   </div>
                   <div className="form-group">
                     <div className="row">
@@ -58,7 +59,9 @@ class Loginpage extends Component {
                         </a>
                       </div>
                     </div>
-                    <input className="form-control" type="password" />
+                    <input className="form-control" 
+                    placeholder="Enter your password"
+                    type="password" />
                   </div>
                   <div className="form-group text-center">
                     <a className="btn btn-primary account-btn" href="/light/app/main/dashboard">

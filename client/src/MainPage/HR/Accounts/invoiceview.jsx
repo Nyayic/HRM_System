@@ -8,7 +8,7 @@ class Invoice extends Component {
       return ( 
             <div className="page-wrapper">
             <Helmet>
-                <title>Invoice - HRMS Admin Template</title>
+                <title>Invoice - HRMS Seeta High School</title>
                 <meta name="description" content="Login page"/>					
             </Helmet>
               {/* Page Content */}

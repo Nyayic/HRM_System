@@ -8,7 +8,7 @@ class CreateEstimate extends Component {
         
       <div className="page-wrapper">
         <Helmet>
-            <title>Create Estimate - HRMS Admin Template</title>
+            <title>Create Estimate - HRMS Seeta High school</title>
             <meta name="description" content="Login page"/>					
         </Helmet>
       {/* Page Content */}

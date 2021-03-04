@@ -572,8 +572,12 @@ class AdminDashboard extends Component {
                                 <i className="fa fa-dot-circle-o text-danger" /> Inactive
                               </a>
                               <div className="dropdown-menu dropdown-menu-right">
-                                <a className="dropdown-item" href="#"><i className="fa fa-dot-circle-o text-success" /> Active</a>
-                                <a className="dropdown-item" href="#"><i className="fa fa-dot-circle-o text-danger" /> Inactive</a>
+                                <a className="dropdown-item" href="#">
+                                  <i className="fa fa-dot-circle-o text-success" /> Active
+                                </a>
+                                <a className="dropdown-item" href="#">
+                                  <i className="fa fa-dot-circle-o text-danger" /> Inactive
+                                </a>
                               </div>
                             </div>
                           </td>
@@ -581,8 +585,12 @@ class AdminDashboard extends Component {
                             <div className="dropdown dropdown-action">
                               <a href="#" className="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i className="material-icons">more_vert</i></a>
                               <div className="dropdown-menu dropdown-menu-right">
-                                <a className="dropdown-item" href=""><i className="fa fa-pencil m-r-5" /> Edit</a>
-                                <a className="dropdown-item" href=""><i className="fa fa-trash-o m-r-5" /> Delete</a>
+                                <a className="dropdown-item" href="">
+                                  <i className="fa fa-pencil m-r-5" /> Edit
+                                </a>
+                                <a className="dropdown-item" href="">
+                                  <i className="fa fa-trash-o m-r-5" /> Delete
+                                </a>
                               </div>
                             </div>
                           </td>

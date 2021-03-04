@@ -7,7 +7,7 @@ class PayrollItems extends Component {
       return ( 
          <div className="page-wrapper">
          <Helmet>
-             <title>Payroll Items - HRMS Admin Template</title>
+             <title>Payroll Items - HHRMS Seeta High School</title>
              <meta name="description" content="Login page"/>					
          </Helmet>
          {/* Page Content */}
