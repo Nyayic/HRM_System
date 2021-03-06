@@ -73,19 +73,36 @@ class Payslip extends Component {
                       <table className="table table-bordered">
                         <tbody>
                           <tr>
-                            <td><strong>Basic Salary</strong> <span className="float-right">$6500</span></td>
+                            <td>
+                              <strong>Basic Salary</strong> 
+                              <span className="float-right">$6500</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>House Rent Allowance (H.R.A.)</strong> <span className="float-right">$55</span></td>
+                            <td>
+                              <strong>House Rent Allowance (H.R.A.)</strong> 
+                              <span className="float-right">$55</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Conveyance</strong> <span className="float-right">$55</span></td>
+                            <td>
+                              <strong>Conveyance</strong> 
+                              <span className="float-right">$55</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Other Allowance</strong> <span className="float-right">$55</span></td>
+                            <td>
+                              <strong>Other Allowance</strong> 
+                              <span className="float-right">$55</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Total Earnings</strong> <span className="float-right"><strong>$55</strong></span></td>
+                            <td>
+                              <strong>Total Earnings</strong> 
+                              <span className="float-right">
+                                <strong>$55</strong>
+                              </span>
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -97,26 +114,46 @@ class Payslip extends Component {
                       <table className="table table-bordered">
                         <tbody>
                           <tr>
-                            <td><strong>Tax Deducted at Source (T.D.S.)</strong> <span className="float-right">$0</span></td>
+                            <td>
+                              <strong>Tax Deducted at Source (T.D.S.)</strong> 
+                              <span className="float-right">$0</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Provident Fund</strong> <span className="float-right">$0</span></td>
+                            <td>
+                              <strong>Provident Fund</strong> 
+                              <span className="float-right">$0</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>ESI</strong> <span className="float-right">$0</span></td>
+                            <td>
+                              <strong>ESI</strong> 
+                              <span className="float-right">$0</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Loan</strong> <span className="float-right">$300</span></td>
+                            <td>
+                              <strong>Loan</strong> 
+                              <span className="float-right">$300</span>
+                            </td>
                           </tr>
                           <tr>
-                            <td><strong>Total Deductions</strong> <span className="float-right"><strong>$59698</strong></span></td>
+                            <td>
+                              <strong>Total Deductions</strong> 
+                              <span className="float-right">
+                                <strong>$59698</strong>
+                              </span>
+                            </td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
                   <div className="col-sm-12">
-                    <p><strong>Net Salary: $59698</strong> (Fifty nine thousand six hundred and ninety eight only.)</p>
+                    <p>
+                      <strong>Net Salary: $59698</strong> 
+                      (Fifty nine thousand six hundred and ninety eight only.)
+                    </p>
                   </div>
                 </div>
               </div>

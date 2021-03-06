@@ -299,18 +299,7 @@ class Employee extends Component {
                       <input className="form-control" type="email" />
                     </div>
                   </div>
-                  <div className="col-sm-6">
-                    <div className="form-group">
-                      <label className="col-form-label">Password</label>
-                      <input className="form-control" type="password" />
-                    </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="form-group">
-                      <label className="col-form-label">Confirm Password</label>
-                      <input className="form-control" type="password" />
-                    </div>
-                  </div>
+                
                   <div className="col-sm-6">  
                     <div className="form-group">
                       <label className="col-form-label">Employee ID <span className="text-danger">*</span></label>
@@ -331,9 +320,9 @@ class Employee extends Component {
                   </div>
                   <div className="col-sm-6">
                     <div className="form-group">
-                      <label className="col-form-label">Company</label>
+                      <label className="col-form-label">Qualification</label>
                       <select className="select">
-                        <option value>Global Technologies</option>
+                        <option value>Teacher</option>
                         <option value={1}>Delta Infotech</option>
                       </select>
                     </div>
@@ -361,7 +350,7 @@ class Employee extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="table-responsive m-t-15">
+                {/* <div className="table-responsive m-t-15">
                   <table className="table table-striped custom-table">
                     <thead>
                       <tr>
@@ -545,7 +534,7 @@ class Employee extends Component {
                       </tr>
                     </tbody>
                   </table>
-                </div>
+                </div> */}
                 <div className="submit-section">
                   <button className="btn btn-primary submit-btn">Submit</button>
                 </div>
@@ -624,7 +613,7 @@ class Employee extends Component {
                   </div>
                   <div className="col-sm-6">
                     <div className="form-group">
-                      <label className="col-form-label">Company</label>
+                      <label className="col-form-label">Qualification</label>
                       <select className="select">
                         <option>Global Technologies</option>
                         <option>Delta Infotech</option>
@@ -647,10 +636,9 @@ class Employee extends Component {
                     <div className="form-group">
                       <label>Designation <span className="text-danger">*</span></label>
                       <select className="select">
-                        <option>Select Designation</option>
-                        <option>Web Designer</option>
-                        <option>Web Developer</option>
-                        <option>Android Developer</option>
+                        <option>Teacher</option>
+                        <option>Accounts</option>
+                        <option>Non teaching staff</option>
                       </select>
                     </div>
                   </div>
