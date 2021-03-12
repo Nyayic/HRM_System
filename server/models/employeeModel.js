@@ -40,16 +40,18 @@ const employeeSchema = mongoose.Schema({
         required: true,
         trim: true
     },
-    department: {
-        type: String,
+    department: [{
+        type: mongoose.Schema.ObjectId,
         required: true,
+        ref: 'Department',
         trim: true
-    },
-    designation: {
-        type: String,
+    }],
+    designation: [{
+        type: mongoose.Schema.ObjectId,
         required: true,
+        ref: 'Designation',
         trim: true
-    },
+    }],
  
 });
 

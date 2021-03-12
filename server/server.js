@@ -8,6 +8,11 @@ const config = require('./db')
 // import  routes
 const userRouter = require('./routes/userRoutes')
 const employeeRouter = require('./routes/employeeRoutes')
+const departmentRouter = require('./routes/departmentRoutes')
+const holidayRouter = require('./routes/holidayRoutes')
+const designationRouter = require('./routes/designationRoutes')
+const empleaveRouter = require('./routes/empleaveRoutes')
+const leavetypeRouter = require('./routes/leavetypeRoutes')
 
 const PORT = 4000
 
@@ -26,12 +31,18 @@ mongoose
   )}
 )
 
-//use imports
+//use routes imported
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
+
 app.use(userRouter)
 app.use(employeeRouter)
+app.use(departmentRouter)
+app.use(holidayRouter)
+app.use(designationRouter)
+app.use(empleaveRouter)
+app.use(leavetypeRouter)
 
 //port listening
 app.listen(PORT, function () {

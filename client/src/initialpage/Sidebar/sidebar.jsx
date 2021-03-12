@@ -53,13 +53,12 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('es-admin') ?"active" :""} href="/light/app/employee/leaves-admin">Leaves (Admin) <span className="badge badge-pill bg-primary float-right">1</span></a></li>
                  
               
-                  <li><a className={pathname.includes('e-settings') ?"active" :""} href="/light/app/employee/leave-settings">Leave Settings</a></li>
+                  {/* <li><a className={pathname.includes('e-settings') ?"active" :""} href="/light/app/employee/leave-settings">Leave Settings</a></li> */}
                   <li><a className={pathname.includes('nce-admin') ?"active" :""} href="/light/app/employee/attendance-admin">Attendance (Admin)</a></li>
                   
                   <li><a className={pathname.includes('departments') ?"active" :""} href="/light/app/employee/departments">Departments</a></li>
                   <li><a className={pathname.includes('designations') ?"active" :""} href="/light/app/employee/designations">Designations</a></li>
-                  <li><a className={pathname.includes('timesheet') ?"active" :""} href="/light/app/employee/timesheet">Timesheet</a></li>
-                  <li><a className={pathname.includes('overtime') ?"active" :""} href="/light/app/employee/overtime">Overtime</a></li>
+                  {/* <li><a className={pathname.includes('overtime') ?"active" :""} href="/light/app/employee/overtime">Overtime</a></li> */}
                 </ul>
               </li>
 
@@ -74,8 +73,8 @@ class Sidebar extends Component {
                   <li><a className={pathname.includes('invoices') ?"active" :""} href="/light/app/accounts/invoices">Invoices</a></li>
                   <li><a className={pathname.includes('payments') ?"active" :""} href="/light/app/accounts/payments">Payments</a></li>
                   <li><a className={pathname.includes('expenses') ?"active" :""} href="/light/app/accounts/expenses">Expenses</a></li>
-                  <li><a className={pathname.includes('provident-fund') ?"active" :""} href="/light/app/accounts/provident-fund">Provident Fund</a></li>
-                  <li><a className={pathname.includes('taxes') ?"active" :""} href="/light/app/accounts/taxes">Taxes</a></li>
+                  {/* <li><a className={pathname.includes('provident-fund') ?"active" :""} href="/light/app/accounts/provident-fund">Provident Fund</a></li>
+                  <li><a className={pathname.includes('taxes') ?"active" :""} href="/light/app/accounts/taxes">Taxes</a></li> */}
                 </ul>
               </li>
               <li className="submenu">
